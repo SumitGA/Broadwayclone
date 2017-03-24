@@ -4,5 +4,26 @@ class PlaysController < ApplicationController
 
 	end
 
-	
+	def new
+	   @play =Play.new
+	end
+
+	def create
+		@play = Play.new()
+	end
+
+
+
+	private 
+
+	def play_params
+		params.require(:play).permit(:title, :description, :director)
+	end
+
 end
+
+
+
+
+
+
