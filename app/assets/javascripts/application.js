@@ -16,3 +16,16 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+/*!
+ * jQuery Raty - A Star Rating Plugin
+ *
+ * The MIT License
+ *
+ * @author  : Washington Botelho
+ * @doc     : http://wbotelhos.com/raty
+ * @version : 2.7.1
+ *
+ */
+
+
